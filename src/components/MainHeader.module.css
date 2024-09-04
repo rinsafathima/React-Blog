@@ -7,6 +7,7 @@
     align-items: center;
     border-bottom: 2px solid rgba(223, 97, 97, 0.795); /* Darker blue */
     background-color: #1c2a3a; /* Dark blue background */
+    font-family: ui-monospace;
   }
   
   .logo {

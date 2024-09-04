@@ -1,7 +1,7 @@
 .post {
     margin: 1rem 0;
     padding: 1rem;
-    background-color: #1a2a48; /* Dark blue background */
+    background-color: #1c335e; /* Dark blue background */
     border-radius: 8px;
     box-shadow: 0 1px 4px rgba(223, 97, 97, 0.795);
     animation: animate-in 1s ease-out forwards;
@@ -9,10 +9,11 @@
   
   .author {
     font-size: 0.8rem;
-    font-weight: bold;
+    font-weight: semi-bold;
     color: #cce4ff; /* Light blue for author text */
     margin: 0;
     text-transform: uppercase;
+    font-style: italic;
   }
   
   .text {
@@ -20,7 +21,7 @@
     font-size: 1.25rem;
     margin: 0.25rem 0 0 0;
     color: #d1e6ff; /* Light blue for the main text */
-    font-style: italic;
+    font-style: none;
   }
   
   @keyframes animate-in {

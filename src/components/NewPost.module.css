@@ -41,7 +41,7 @@
   }
   
   .actions button:hover {
-    background-color: #142443; /* Even darker blue for hover state */
+    background-color: #061f20; /* Even darker blue for hover state */
   }
   
   .actions button[type='button'] {
