@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  min-height: 100vh;
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  background-color: #0a122a; /* Dark blue background color */
+  background-image: url('https://images.pexels.com/photos/1425298/pexels-photo-1425298.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'), radial-gradient(ellipse at top left, #1e3a66, #0a122a);
+  background-size: cover, cover; /* Adjust background images to cover the whole area */
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  color: #cfd6f4; /* Lighter text color for better readability on a dark background */
+}

@@ -1,0 +1,15 @@
+.posts {
+    list-style: none;
+    max-width: 50rem;
+    margin: 1rem auto;
+    padding: 1rem 0;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(3, 30%);
+    justify-content: center;
+    background-color: #8ca8db; /* Dark blue background for the posts container */
+    border-radius: 8px; /* Optional: rounding the corners for a smoother look */
+    box-shadow: 0 2px 8px rgba(223, 97, 97, 0.795); /* Slight shadow for depth */
+    padding: 2rem; /* Increased padding for better spacing */
+  }
+  
