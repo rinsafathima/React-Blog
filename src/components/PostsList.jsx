@@ -27,10 +27,32 @@ function PostsList({ isPosting, onStopPosting }) {
         </ul>
       )}
       {posts.length === 0 && (
-        <div style={{ textAlign: 'center', color: '#1c2a3a' }}>
-          <h2>There are no posts yet.</h2>
-          <p>Start adding some!</p>
-        </div>
+        <div style={{
+            textAlign: 'center', 
+            color: '#f0f8ff', 
+            fontFamily: "'Poppins', 'Comic Sans MS', sans-serif", 
+            fontSize: '1.5rem',
+            padding: '2rem',
+            animation: 'fadeIn 2s ease-out',
+            position: 'relative',
+            overflow: 'hidden'
+          }}>
+            <div style={{ fontSize: '2.5rem', marginBottom: '3rem' }}>
+              🎉 Welcome! 😊
+            </div>
+            <p style={{ margin: 0 }}>
+              Let's build something amazing together! ✨
+            </p>
+            
+            {/* Cute floating emoji animation */}
+            <div style={{ position: 'absolute', top: '-50px', right: '-50px', animation: 'float 3s ease-in-out infinite' }}>
+              🌸
+            </div>
+            <div style={{ position: 'absolute', bottom: '-50px', left: '-50px', animation: 'float 3s ease-in-out infinite' }}>
+              🍀
+            </div>
+          </div>
+          
       )}
     </>
   );

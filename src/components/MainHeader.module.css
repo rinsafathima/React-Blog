@@ -5,8 +5,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 2px solid rgba(223, 97, 97, 0.795); /* Darker blue */
-    background-color: #1c2a3a; /* Dark blue background */
+    border-bottom: 3px solid rgba(223, 97, 97, 0.795); /* Darker blue */
+    background-color: #cfd6f4; /* Dark blue background */
     font-family: ui-monospace;
   }
   
@@ -15,7 +15,7 @@
     display: flex;
     gap: 1.5rem;
     align-items: center;
-    color: #f0f8ff; /* Light blue for contrast */
+    color: #4e54c8; /* Light blue for contrast */
   }
   
   .button {
@@ -23,16 +23,16 @@
     align-items: center;
     gap: 0.5rem;
     padding: 0.75rem 1.5rem;
-    background-color: #405b8e; /* Slightly lighter blue */
+    background-color: rgba(223, 97, 97, 0.795); /* Slightly lighter blue */
     color: #f0f8ff; /* Light blue text */
     border: none;
     border-radius: 4px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3); /* Slightly darker shadow */
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3); /* Slightly darker shadow */
     cursor: pointer;
     font-weight: bold;
   }
   
   .button:hover {
-    background-color: #3a4e73; /* Darker shade of the button */
+    background-color: #4e54c8; /* Darker shade of the button */
   }
   

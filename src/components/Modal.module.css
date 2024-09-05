@@ -4,15 +4,15 @@
     left: 0;
     width: 100%;
     height: 100vh;
-    background-color: rgba(0, 10, 30, 0.5); /* Dark blue tint for the backdrop */
+    background-color: rgba(30, 41, 63, 0.5); /* Dark blue tint for the backdrop */
     z-index: 1;
   }
   
   .modal {
     border: none;
     border-radius: 6px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); /* Darker shadow for a more pronounced effect */
-    background-color: #455568; /* Dark blue background for the modal */
+    box-shadow: 0 3px 8px rgba(223, 97, 97, 0.795); /* Darker shadow for a more pronounced effect */
+    background-color:#f0f8ff; /* Dark blue background for the modal */
     color: #f0f8ff; /* Light blue text for content */
     padding: 1rem; /* Added padding for spacing */
     overflow: hidden;

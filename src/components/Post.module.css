@@ -1,37 +1,72 @@
 .post {
-    margin: 1rem 0;
-    padding: 1rem;
-    background-color: #1c335e; /* Dark blue background */
-    border-radius: 8px;
-    box-shadow: 0 1px 4px rgba(223, 97, 97, 0.795);
-    animation: animate-in 1s ease-out forwards;
+  margin: 1rem 0;
+  padding: 1rem;
+  background-color: #cfd6f4; /* Light blue background */
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(223, 97, 97, 0.795);
+  animation: animate-in 1s ease-out forwards;
+}
+
+.author {
+  font-size: 0.9rem;
+  font-weight: 600; /* Adjusted to give more boldness */
+  color: #334155; /* Light blue for author text */
+  margin: 0;
+  text-transform: uppercase;
+  font-style: italic;
+  font-family: 'Pacifico', cursive; /* Cursive-like font */
+  letter-spacing: 1px; /* Adds more space between letters */
+  text-align: center; /* Centers the text for a balanced look */
+  position: relative;
+}
+
+.author::before {
+  content: "- "; /* Adds a hyphen before the author's name */
+  font-weight: 400; /* Keeps the hyphen lighter than the text */
+  color: #334155; /* Matches the text color */
+}
+
+.text {
+  white-space: pre-wrap;
+  font-size: 1.25rem;
+  margin: 0.25rem 0 0 0;
+  color: #334155; /* Light blue for the main text */
+  font-style: normal;
+  font-family: 'Merriweather', 'Poppins', sans-serif; /* User-friendly font */ /* Justifies the text */
+  line-height: 1.6; /* Improves readability */
+  letter-spacing: 0.5px; /* Adds a bit of space between letters */
+  max-width: 700px; /* Narrows the text block */
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 1rem; /* Adds padding to the sides for better spacing */
+}
+
+
+@keyframes animate-in {
+  from {
+    opacity: 0;
+    transform: translateY(1rem);
   }
-  
-  .author {
-    font-size: 0.8rem;
-    font-weight: semi-bold;
-    color: #cce4ff; /* Light blue for author text */
-    margin: 0;
-    text-transform: uppercase;
-    font-style: italic;
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
-  
-  .text {
-    white-space: pre-wrap;
-    font-size: 1.25rem;
-    margin: 0.25rem 0 0 0;
-    color: #d1e6ff; /* Light blue for the main text */
-    font-style: none;
+}
+
+/* New Text Reveal Animation */
+.reveal {
+  opacity: 0;
+  animation: text-reveal 1s ease forwards;
+  animation-fill-mode: backwards;
+}
+
+@keyframes text-reveal {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
   }
-  
-  @keyframes animate-in {
-    from {
-      opacity: 0;
-      transform: translateY(1rem);
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
   }
-  
+}

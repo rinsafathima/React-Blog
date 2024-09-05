@@ -1,5 +1,5 @@
 .form {
-    background-color: #1a2a48; /* Dark blue background */
+    background-color: #4e54c8; /* Dark blue background */
     padding: 1rem;
     width: 20rem;
     border-radius: 8px; /* Added some rounding to match the overall aesthetic */
@@ -20,8 +20,8 @@
     padding: 0.5rem;
     border-radius: 6px;
     border: none;
-    background-color: #283a5a; /* Slightly lighter dark blue for input fields */
-    color: #ffffff; /* White text for better contrast */
+    background-color: #f0f8ff; /* Slightly lighter dark blue for input fields */
+    color: #253552; /* White text for better contrast */
   }
   
   .actions {
@@ -36,12 +36,12 @@
     padding: 0.5rem 1.5rem;
     border: none;
     border-radius: 4px;
-    background-color: #1c335e; /* Dark blue for buttons */
+    background-color: rgba(223, 97, 97, 0.795); /* Dark blue for buttons */
     color: #cce4ff; /* Light blue text on buttons */
   }
   
   .actions button:hover {
-    background-color: #061f20; /* Even darker blue for hover state */
+    background-color: #cce4ff; /* Even darker blue for hover state */
   }
   
   .actions button[type='button'] {
