@@ -12,9 +12,11 @@
   font-weight: 600; /* Adjusted to give more boldness */
   color: #334155; /* Light blue for author text */
   margin: 0;
+  padding-top: 5px;
+  padding-bottom: 4px;
   text-transform: uppercase;
   font-style: italic;
-  font-family: 'Pacifico', cursive; /* Cursive-like font */
+  font-family: 'Roboto Condensed', sans-serif; /* narrow-like font */
   letter-spacing: 1px; /* Adds more space between letters */
   text-align: center; /* Centers the text for a balanced look */
   position: relative;
@@ -32,7 +34,7 @@
   margin: 0.25rem 0 0 0;
   color: #334155; /* Light blue for the main text */
   font-style: normal;
-  font-family: 'Merriweather', 'Poppins', sans-serif; /* User-friendly font */ /* Justifies the text */
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; /* User-friendly font */ /* Justifies the text */
   line-height: 1.6; /* Improves readability */
   letter-spacing: 0.5px; /* Adds a bit of space between letters */
   max-width: 700px; /* Narrows the text block */
